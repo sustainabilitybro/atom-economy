@@ -4,27 +4,54 @@ Green chemistry calculations and metrics for sustainable chemical processes.
 
 ## Overview
 
-This repository contains tools and calculators for measuring atom economy in chemical reactions, a fundamental principle of green chemistry.
+This repository contains tools and calculators for measuring atom economy in chemical reactions, a fundamental principle of green chemistry developed by Barry Trost.
 
 ## Features
 
-- Atom economy calculator
-- Example reactions with detailed calculations
-- Educational resources on green chemistry principles
+- **Atom Economy Calculator** - Calculate AE for any chemical reaction
+- **E-Factor Analysis** - Measure waste generation (kg waste / kg product)
+- **Reaction Mass Efficiency (RME)** - Combined efficiency metric
+- **Green Chemistry Principles** - 12 principles of sustainable chemistry
+- **Industrial Case Studies** - Real-world examples of green chemistry improvements
 
-## Usage
+## Quick Calculation
 
-Open `Atom_Economy_Master_v3_FULL.html` in a web browser to access the full calculator and tools.
+**Atom Economy Formula:**
+```
+AE = (MW of Desired Product / Σ MW of All Products) × 100%
+```
+
+**Rating Scale:**
+- ≥90%: Excellent - Ideal for green chemistry
+- 70-89%: Good - Preferable for sustainable processes  
+- 50-69%: Moderate - Room for improvement
+- <50%: Needs improvement - Consider alternative routes
 
 ## Integration
 
-This module is integrated into **Organic OS** at `/sustainability/atom-economy`
+This module is integrated into **Organic OS** at:
+- `/sustainability/atom-economy`
+- `/atom-economy`
+
+## Example Reactions
+
+| Reaction | Atom Economy |
+|----------|-------------|
+| Addition reactions | 100% |
+| Substitution reactions | <100% |
+| Elimination reactions | 100% |
 
 ## Resources
 
-- [Green Chemistry Principle: Atom Economy](https://www.epa.gov/greenchemistry/basics-green-chemistry#12)
+- [EPA Green Chemistry Basics](https://www.epa.gov/greenchemistry/basics-green-chemistry#12)
 - [Wikipedia: Atom Economy](https://en.wikipedia.org/wiki/Atom_economy)
+- [12 Principles of Green Chemistry](https://www.acs.org/greenchemistry/principles.html)
 
 ## License
 
 MIT
+
+## Related Repositories
+
+- [Organic OS](https://github.com/sustainabilitybro/ORGANIC-OS) - Full personal operating system
+- [Holistic-Alchemy](https://github.com/sustainabilitybro/Holistic-Alchemy) - Transformation framework
